@@ -13,11 +13,13 @@ export class HomePage implements OnInit{
     console.log('Voltamos garoto!');
   }
 
-  marcarFumei(){
+  marcarFumei(teste){
     console.log('Agora simmmm');
     const horario = this.pegarHorario();
     console.log('Horario aqui:', horario);
+    console.log('Evento aqui:', teste);
 
+    // return { horario };
     // var horas = testando.getHours();
     // var minutos = testando.getMinutes();
     // var segundos = testando.getSeconds();
