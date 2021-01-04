@@ -14,6 +14,7 @@
   </ion-header>
 
   <div id="container">
-    <ion-button shape="round" color="success" (click)="marcarFumei($event)">Fumei</ion-button>
+    <ion-button shape="round" color="success" (click)="marcarFumei()">Fumei</ion-button>
+    <ion-button shape="round" color="danger" [routerLink]="['/list']" >Listar</ion-button>
   </div>
 </ion-content>

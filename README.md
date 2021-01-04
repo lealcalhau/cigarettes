@@ -38,4 +38,18 @@ Para iniciar o servidor
 
     Chamei no home.html um metodo marcarFumei() no botão (click)
 
+5. Instalar angular-in-memory-web-api
+
+    -> npm i web-in-memory-web-api
+
+    Criar in-memory-web-api.ts file
+
+    Realizar import do module HttpClientInMemoryWebApiModule.forRoot() no app.module.ts
     
+
+6. Gerar novo component já com module
+
+    -> ionic generate page list
+
+    Adicionar rota no botão para carregar nova pagina
+    <ion-button shape="round" color="danger" [routerLink]="['/list']" >Listar</ion-button>
